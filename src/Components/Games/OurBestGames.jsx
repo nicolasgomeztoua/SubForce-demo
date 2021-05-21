@@ -30,8 +30,9 @@ const Subtitle = styled.h4`
   text-transform: uppercase;
   display: flex;
   justify-content: center;
-  width: 400px;
-  padding-right: 150px;
+  width: 183px;
+  text-align: center;
+  margin: 0 auto;
   @media screen and (max-width: 780px) {
     padding: 0;
   }
@@ -65,6 +66,7 @@ const Diamondwrap = styled.div`
   width: 130px;
   padding: 0 2px;
   margin-left: 60px;
+  margin: 0 auto;
   @media screen and (max-width: 780px) {
     margin-left: 60px;
     margin-right: 60px;
@@ -85,14 +87,14 @@ const Paragraph = styled.div`
   font-size: 1rem;
 
   min-width: 100px;
-  max-width: 300px;
+  max-width: 187px;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px;
+  margin: 0 auto;
   @media screen and (max-width: 780px) {
-    margin-bottom: 25px;
+    margin-bottom: 55px;
   }
 `;
 const FlexContainer = styled.div`

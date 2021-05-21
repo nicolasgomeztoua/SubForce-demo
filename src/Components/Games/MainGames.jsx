@@ -82,7 +82,9 @@ const MainGames = () => {
         navigation={true}
         className="mySwiper"
       >
-        <SwiperSlide style={{ width: "100%" }}>
+        <SwiperSlide
+          style={{ width: "100%", height: "auto", margin: "100px 0" }}
+        >
           {" "}
           <SEO>
             {mainGames.slice(0, firstPageItems).map((game, index) => {

@@ -7,7 +7,7 @@ const Container = styled.div`
   grid-template-columns: 17% 66% 17%;
   @media screen and (max-width: 1220px) {
     grid-template-columns: 100%;
-    grid-template-rows: 10% 80% 10%;
+    grid-template-rows: 7.5% 85% 7.5%;
   }
 `;
 const Wrap = styled.div`

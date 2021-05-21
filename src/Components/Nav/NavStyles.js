@@ -147,6 +147,7 @@ export const FlagContainer = styled.div`
 `;
 export const Flag = styled.img`
   width: 60px;
+  height: 60px;
   transform: scale(0.8);
   margin: 3px;
 `;

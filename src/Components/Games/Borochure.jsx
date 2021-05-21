@@ -5,7 +5,7 @@ import ShareCodes from "./ShareCodes";
 
 const Borochure = () => {
   return (
-    <div style={{ background: "white" }}>
+    <div style={{ background: "white", height: "auto" }}>
       <OurBestGames></OurBestGames>
       <ShareCodes></ShareCodes>
       <MainGames></MainGames>
